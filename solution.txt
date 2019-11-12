@@ -1,0 +1,33 @@
+Solution:
+
+SELECT * FROM crime_scene_reports
+WHERE city = "Gothenburg" AND
+date = "2019/10/12";
+
+SELECT * FROM people
+WHERE name = "Taylor Evans" OR
+name = "Samantha Lupo";
+
+SELECT * FROm interviews
+WHERE person_id = 51 OR 
+person_id = 52;
+
+SELECT * FROM people 
+JOIN park_lane_guest_list 
+ON people.id = park_lane_guest_list.person_id
+WHERE hair_color = "brown" AND
+height BETWEEN 170 AND 180
+GROUP BY name
+HAVING COUNT(person_id) > 2;
+
+SELECT * FROM cars
+WHERE plate_number LIKE "FNX%" AND
+color LIKE "red";
+
+SELECT * FROM uber_cars
+WHERE id = 42;
+
+SELECT * FROM people
+WHERE id = 54;
+
+Mark Richmen is the murder!
