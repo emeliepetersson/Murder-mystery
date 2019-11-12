@@ -1,6 +1,6 @@
 # Murder-mystery
 
-<img src="https://media.giphy.com/media/2yxkSUWYzgnsPje3X8/giphy.gif" width="100%">
+<img src="https://media.giphy.com/media/3inwEAz8RT1ja/giphy.gif" width="100%">
 
 ## Your assignment is to solve the murder mystery!
 
