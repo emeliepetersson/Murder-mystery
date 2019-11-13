@@ -30,4 +30,4 @@ WHERE id = 42;
 SELECT * FROM people
 WHERE id = 54;
 
-Mark Richmen is the murder!
+Mark Richmen is the murderer!
